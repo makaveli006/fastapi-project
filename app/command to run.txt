@@ -1,0 +1,12 @@
+Run these from outside app folder
+===========================================
+
+uvicorn app.main2_pydantic_restriction:app --host 127.0.0.1 --port 8004 --reload
+
+
+uvicorn app.main3_database:app --host 127.0.0.1 --port 8004 --reload
+
+uvicorn app.main4_sql_alchemy:app --host 127.0.0.1 --port 8004 --reload
+
+
+uvicorn app.main:app --host 127.0.0.1 --port 8004 --reload

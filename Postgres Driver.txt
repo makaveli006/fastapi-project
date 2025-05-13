@@ -1,0 +1,4 @@
+* If you want to work with postgres using python scripts you need a pg driver
+
+https://www.psycopg.org/docs/install.html#quick-install
+https://www.psycopg.org/docs/

@@ -1,0 +1,2 @@
+Eventhough we have a ORM we still need a driver to communicate with the database, so why need ORM?
+ORM is needed to abstract the raw communication between FAST API APP (Code we write) and database

@@ -1,0 +1,1 @@
+packages are nothing but a fancy name for a folder, a folder is packaged when a dummy file is created called __init__.py

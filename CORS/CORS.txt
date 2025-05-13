@@ -1,0 +1,14 @@
+🔒 What is CORS?
+CORS is a security feature in web browsers that prevents a website from making a request to a different website (domain) unless that website allows it.
+
+
+✅ Simple Example:
+Imagine:
+You are on the website ebay.com
+This website wants to get some data from an API on google.com.
+By default, google.com will block this request — it doesn't want just any site asking for its data.
+This is because of CORS rules.
+
+
+🧠 Why do we have CORS?
+To protect your data and prevent malicious websites from secretly reading data from other websites (like your emails or personal info from your bank).

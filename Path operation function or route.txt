@@ -1,0 +1,19 @@
+@app.route('/users/<int:user_id>', methods=['PATCH'])
+def patch_user(user_id):
+    data = request.get_json()
+    for user in users:
+        if user["id"] == user_id:
+            user.update(data)  # Update only the provided fields
+            return jsonify(user)
+    return jsonify({"error": "User not found"}), 404
+
+
+==========================
+from above
+def patch_user(user_id):
+ ...................
+........................
+
+
+This is the path operation function that executes when a PATCH request is made to /users/<user_id> endpoint.
+It accepts user_id as a parameter from the URL.

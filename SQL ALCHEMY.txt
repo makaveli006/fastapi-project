@@ -1,0 +1,5 @@
+In this course we use version 1.4
+
+https://docs.sqlalchemy.org/en/14/
+
+pip install SQLAlchemy==1.4.23
