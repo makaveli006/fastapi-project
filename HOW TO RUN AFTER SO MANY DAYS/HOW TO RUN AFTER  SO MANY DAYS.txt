@@ -1,0 +1,3 @@
+just open cmd from "D:\Codes\New AI tools and Tecs\Python API\freeCodeCamp.org\Python API Development - FASTAPI"
+
+and run "uvicorn app.main:app --host 127.0.0.1 --port 8004 --reload"
